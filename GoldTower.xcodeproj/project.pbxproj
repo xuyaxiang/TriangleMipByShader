@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6548F5C1E84DE1400326438 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F6548F5B1E84DE1400326438 /* 1.jpg */; };
+		F6668D9F1E802A6B001B06FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6668D9E1E802A6B001B06FA /* main.m */; };
+		F6668DA21E802A6C001B06FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6668DA11E802A6C001B06FA /* AppDelegate.m */; };
+		F6668DA51E802A6C001B06FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6668DA41E802A6C001B06FA /* ViewController.m */; };
+		F6668DA81E802A6C001B06FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6668DA61E802A6C001B06FA /* Main.storyboard */; };
+		F6668DAA1E802A6C001B06FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6668DA91E802A6C001B06FA /* Assets.xcassets */; };
+		F6668DAD1E802A6C001B06FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6668DAB1E802A6C001B06FA /* LaunchScreen.storyboard */; };
+		F6668DB81E802A6C001B06FA /* GoldTowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6668DB71E802A6C001B06FA /* GoldTowerTests.m */; };
+		F6668DC31E802A6C001B06FA /* GoldTowerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6668DC21E802A6C001B06FA /* GoldTowerUITests.m */; };
+		F6668DD21E802B12001B06FA /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F6668DD01E802B12001B06FA /* Shader.fsh */; };
+		F6668DD31E802B12001B06FA /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F6668DD11E802B12001B06FA /* Shader.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6668DB41E802A6C001B06FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6668D921E802A6B001B06FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6668D991E802A6B001B06FA;
+			remoteInfo = GoldTower;
+		};
+		F6668DBF1E802A6C001B06FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6668D921E802A6B001B06FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6668D991E802A6B001B06FA;
+			remoteInfo = GoldTower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6548F5B1E84DE1400326438 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F6668D9A1E802A6B001B06FA /* GoldTower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldTower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6668D9E1E802A6B001B06FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6668DA01E802A6C001B06FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6668DA11E802A6C001B06FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6668DA31E802A6C001B06FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = GoldTower/ViewController.h; sourceTree = "<group>"; };
+		F6668DA41E802A6C001B06FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6668DA71E802A6C001B06FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6668DA91E802A6C001B06FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6668DAC1E802A6C001B06FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6668DAE1E802A6C001B06FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6668DB31E802A6C001B06FA /* GoldTowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldTowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6668DB71E802A6C001B06FA /* GoldTowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldTowerTests.m; sourceTree = "<group>"; };
+		F6668DB91E802A6C001B06FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6668DBE1E802A6C001B06FA /* GoldTowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldTowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6668DC21E802A6C001B06FA /* GoldTowerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldTowerUITests.m; sourceTree = "<group>"; };
+		F6668DC41E802A6C001B06FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6668DD01E802B12001B06FA /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		F6668DD11E802B12001B06FA /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6668D971E802A6B001B06FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6668DB01E802A6C001B06FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6668DBB1E802A6C001B06FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6668D911E802A6B001B06FA = {
+			isa = PBXGroup;
+			children = (
+				F6668D9C1E802A6B001B06FA /* GoldTower */,
+				F6668DB61E802A6C001B06FA /* GoldTowerTests */,
+				F6668DC11E802A6C001B06FA /* GoldTowerUITests */,
+				F6668D9B1E802A6B001B06FA /* Products */,
+				F6668DA31E802A6C001B06FA /* ViewController.h */,
+			);
+			sourceTree = "<group>";
+		};
+		F6668D9B1E802A6B001B06FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6668D9A1E802A6B001B06FA /* GoldTower.app */,
+				F6668DB31E802A6C001B06FA /* GoldTowerTests.xctest */,
+				F6668DBE1E802A6C001B06FA /* GoldTowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6668D9C1E802A6B001B06FA /* GoldTower */ = {
+			isa = PBXGroup;
+			children = (
+				F6548F5B1E84DE1400326438 /* 1.jpg */,
+				F6668DD01E802B12001B06FA /* Shader.fsh */,
+				F6668DD11E802B12001B06FA /* Shader.vsh */,
+				F6668DA01E802A6C001B06FA /* AppDelegate.h */,
+				F6668DA11E802A6C001B06FA /* AppDelegate.m */,
+				F6668DA41E802A6C001B06FA /* ViewController.m */,
+				F6668DA61E802A6C001B06FA /* Main.storyboard */,
+				F6668DA91E802A6C001B06FA /* Assets.xcassets */,
+				F6668DAB1E802A6C001B06FA /* LaunchScreen.storyboard */,
+				F6668DAE1E802A6C001B06FA /* Info.plist */,
+				F6668D9D1E802A6B001B06FA /* Supporting Files */,
+			);
+			path = GoldTower;
+			sourceTree = "<group>";
+		};
+		F6668D9D1E802A6B001B06FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6668D9E1E802A6B001B06FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6668DB61E802A6C001B06FA /* GoldTowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6668DB71E802A6C001B06FA /* GoldTowerTests.m */,
+				F6668DB91E802A6C001B06FA /* Info.plist */,
+			);
+			path = GoldTowerTests;
+			sourceTree = "<group>";
+		};
+		F6668DC11E802A6C001B06FA /* GoldTowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6668DC21E802A6C001B06FA /* GoldTowerUITests.m */,
+				F6668DC41E802A6C001B06FA /* Info.plist */,
+			);
+			path = GoldTowerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6668D991E802A6B001B06FA /* GoldTower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6668DC71E802A6C001B06FA /* Build configuration list for PBXNativeTarget "GoldTower" */;
+			buildPhases = (
+				F6668D961E802A6B001B06FA /* Sources */,
+				F6668D971E802A6B001B06FA /* Frameworks */,
+				F6668D981E802A6B001B06FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldTower;
+			productName = GoldTower;
+			productReference = F6668D9A1E802A6B001B06FA /* GoldTower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6668DB21E802A6C001B06FA /* GoldTowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6668DCA1E802A6C001B06FA /* Build configuration list for PBXNativeTarget "GoldTowerTests" */;
+			buildPhases = (
+				F6668DAF1E802A6C001B06FA /* Sources */,
+				F6668DB01E802A6C001B06FA /* Frameworks */,
+				F6668DB11E802A6C001B06FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6668DB51E802A6C001B06FA /* PBXTargetDependency */,
+			);
+			name = GoldTowerTests;
+			productName = GoldTowerTests;
+			productReference = F6668DB31E802A6C001B06FA /* GoldTowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6668DBD1E802A6C001B06FA /* GoldTowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6668DCD1E802A6C001B06FA /* Build configuration list for PBXNativeTarget "GoldTowerUITests" */;
+			buildPhases = (
+				F6668DBA1E802A6C001B06FA /* Sources */,
+				F6668DBB1E802A6C001B06FA /* Frameworks */,
+				F6668DBC1E802A6C001B06FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6668DC01E802A6C001B06FA /* PBXTargetDependency */,
+			);
+			name = GoldTowerUITests;
+			productName = GoldTowerUITests;
+			productReference = F6668DBE1E802A6C001B06FA /* GoldTowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6668D921E802A6B001B06FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xyxorigation;
+				TargetAttributes = {
+					F6668D991E802A6B001B06FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+					};
+					F6668DB21E802A6C001B06FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6668D991E802A6B001B06FA;
+					};
+					F6668DBD1E802A6C001B06FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M72V2PCK7H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6668D991E802A6B001B06FA;
+					};
+				};
+			};
+			buildConfigurationList = F6668D951E802A6B001B06FA /* Build configuration list for PBXProject "GoldTower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6668D911E802A6B001B06FA;
+			productRefGroup = F6668D9B1E802A6B001B06FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6668D991E802A6B001B06FA /* GoldTower */,
+				F6668DB21E802A6C001B06FA /* GoldTowerTests */,
+				F6668DBD1E802A6C001B06FA /* GoldTowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6668D981E802A6B001B06FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6668DD21E802B12001B06FA /* Shader.fsh in Resources */,
+				F6668DAD1E802A6C001B06FA /* LaunchScreen.storyboard in Resources */,
+				F6668DAA1E802A6C001B06FA /* Assets.xcassets in Resources */,
+				F6548F5C1E84DE1400326438 /* 1.jpg in Resources */,
+				F6668DA81E802A6C001B06FA /* Main.storyboard in Resources */,
+				F6668DD31E802B12001B06FA /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6668DB11E802A6C001B06FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6668DBC1E802A6C001B06FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6668D961E802A6B001B06FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6668DA51E802A6C001B06FA /* ViewController.m in Sources */,
+				F6668DA21E802A6C001B06FA /* AppDelegate.m in Sources */,
+				F6668D9F1E802A6B001B06FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6668DAF1E802A6C001B06FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6668DB81E802A6C001B06FA /* GoldTowerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6668DBA1E802A6C001B06FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6668DC31E802A6C001B06FA /* GoldTowerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6668DB51E802A6C001B06FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6668D991E802A6B001B06FA /* GoldTower */;
+			targetProxy = F6668DB41E802A6C001B06FA /* PBXContainerItemProxy */;
+		};
+		F6668DC01E802A6C001B06FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6668D991E802A6B001B06FA /* GoldTower */;
+			targetProxy = F6668DBF1E802A6C001B06FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6668DA61E802A6C001B06FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6668DA71E802A6C001B06FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6668DAB1E802A6C001B06FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6668DAC1E802A6C001B06FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6668DC51E802A6C001B06FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6668DC61E802A6C001B06FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6668DC81E802A6C001B06FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = GoldTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.GoldTower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6668DC91E802A6C001B06FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = GoldTower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.GoldTower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6668DCB1E802A6C001B06FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = GoldTowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.GoldTowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldTower.app/GoldTower";
+			};
+			name = Debug;
+		};
+		F6668DCC1E802A6C001B06FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = GoldTowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.GoldTowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldTower.app/GoldTower";
+			};
+			name = Release;
+		};
+		F6668DCE1E802A6C001B06FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = GoldTowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.GoldTowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldTower;
+			};
+			name = Debug;
+		};
+		F6668DCF1E802A6C001B06FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M72V2PCK7H;
+				INFOPLIST_FILE = GoldTowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yunxi.GoldTowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldTower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6668D951E802A6B001B06FA /* Build configuration list for PBXProject "GoldTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6668DC51E802A6C001B06FA /* Debug */,
+				F6668DC61E802A6C001B06FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6668DC71E802A6C001B06FA /* Build configuration list for PBXNativeTarget "GoldTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6668DC81E802A6C001B06FA /* Debug */,
+				F6668DC91E802A6C001B06FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6668DCA1E802A6C001B06FA /* Build configuration list for PBXNativeTarget "GoldTowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6668DCB1E802A6C001B06FA /* Debug */,
+				F6668DCC1E802A6C001B06FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6668DCD1E802A6C001B06FA /* Build configuration list for PBXNativeTarget "GoldTowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6668DCE1E802A6C001B06FA /* Debug */,
+				F6668DCF1E802A6C001B06FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6668D921E802A6B001B06FA /* Project object */;
+}
